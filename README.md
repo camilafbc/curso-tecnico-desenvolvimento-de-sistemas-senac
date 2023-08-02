@@ -1,9 +1,10 @@
-# Trilha do Curso Téc. em Desenvolvimento de Sistemas
+<img src="https://raw.githubusercontent.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/main/banner.png" width="100%"/>
 
+ 
 <div align="center">
  
-  ## Tecnologias e Ferramentas Abordadas
-  
+ ## Tecnologias e Ferramentas Abordadas
+ 
   <div>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50px" />
@@ -43,3 +44,7 @@
 #### Realizar Testes
 
 #### Operações de Suporte ao Usuário
+
+#
+
+## Projetos: 
