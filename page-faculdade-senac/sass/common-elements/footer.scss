@@ -1,0 +1,35 @@
+footer {
+    padding: 1rem;
+    background-color: $blue-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_container {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    color: $icons-white-color;
+
+    p {
+        font-weight: 500;
+    }
+}
+
+.social_container {
+    display: flex;
+    gap: 10px;
+}
+
+.social_icons > i {
+    font-size: 20px;
+}

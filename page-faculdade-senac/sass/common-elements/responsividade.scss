@@ -1,0 +1,11 @@
+@media(min-width: 420px){
+    nav > ul > li {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 440px){
+    .footer_container {
+        justify-content: space-between;
+    }
+}
