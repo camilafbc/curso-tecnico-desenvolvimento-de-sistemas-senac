@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +21,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-bottom: 4px solid #ffa500;
 }
 
@@ -30,15 +29,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1800px;
   width: 100%;
 }
 
 .logo_container {
   width: 70px;
 }
-
-.logo_container > img {
+.logo_container img {
   width: 100%;
 }
 
@@ -46,32 +44,26 @@ nav {
   width: 60%;
   max-width: 300px;
 }
-
-nav > ul {
+nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-nav > ul > li {
+nav ul li {
   cursor: pointer;
   font-weight: 600;
   font-size: 0.75rem;
   text-decoration: none;
   color: #004B8D;
 }
-
-nav > ul > li:hover {
+nav ul li:hover {
   transition: 0.4s;
   color: #ffa500;
 }
 
 footer {
-  padding: 1rem;
+  padding: 1rem 2rem;
   background-color: #004B8D;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -79,17 +71,20 @@ footer {
 
 .footer_container {
   margin: 1rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1800px;
   flex-wrap: wrap;
   gap: 0.5rem;
   color: #f4f7fa;
 }
 .footer_container p {
   font-weight: 500;
+}
+
+footer, .footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social_container {
@@ -164,7 +159,7 @@ footer {
   font-weight: 500;
   color: #004B8D;
 }
-.main_home .more_btn {
+.main_home .btn_next {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   font-size: 12px;
@@ -175,7 +170,7 @@ footer {
   color: #333333;
   scale: 0.95;
 }
-.main_home .more_btn:hover {
+.main_home .btn_next:hover {
   transition: scale 0.25s;
   scale: 1;
 }
@@ -216,7 +211,7 @@ main {
 }
 
 .text_container {
-  width: 90%;
+  width: 80%;
   text-align: justify;
 }
 .text_container p {
@@ -238,7 +233,7 @@ main {
   text-decoration: none;
   color: black;
 }
-.btn :hover {
+.btn:hover {
   scale: 0.95;
 }
 
@@ -250,6 +245,11 @@ main {
 @media (min-width: 440px) {
   .footer_container {
     justify-content: space-between;
+  }
+}
+@media (min-width: 900px) {
+  .main_home > .title_container h1 {
+    font-size: 2.5rem;
   }
 }
 

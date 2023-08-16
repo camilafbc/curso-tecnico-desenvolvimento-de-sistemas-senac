@@ -35,7 +35,7 @@ main {
 }
 
 .text_container {
-    width: 90%;
+    width: 80%;
     text-align: justify;
 
     p {
@@ -59,7 +59,7 @@ main {
     text-decoration: none;
     color: black;
 
-    :hover{
+    &:hover{
         scale: 0.95;
     }
 }

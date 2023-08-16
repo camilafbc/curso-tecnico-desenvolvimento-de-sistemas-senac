@@ -1,9 +1,6 @@
 footer {
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: $blue-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -11,11 +8,8 @@ footer {
 
 .footer_container {
     margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1800px;
     flex-wrap: wrap;
     gap: 0.5rem;
     color: $icons-white-color;
@@ -23,6 +17,12 @@ footer {
     p {
         font-weight: 500;
     }
+}
+
+footer, .footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social_container {
