@@ -49,3 +49,11 @@
 #
 
 ## Projetos: 
+
+ ##### Page Cursos Senac
+ <img width="40%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/raw/main/page-faculdade-senac/rec-readme.gif?raw=true"/>
+
+
+  ##### Gerador de E-mail Institucional
+ <img width="40%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/raw/main/gerador-email-institucional/to-readme.gif?raw=true"/>
+
