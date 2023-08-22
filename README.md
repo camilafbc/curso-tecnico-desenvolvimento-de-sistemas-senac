@@ -28,6 +28,7 @@
 #### ✅Desenvolver Algoritmos
 
 - Lógica de Programação com JavaScript
+- Introdução ao PHP
 
 #### Analisar Programação Estruturada e Orientada a Objetos
 
