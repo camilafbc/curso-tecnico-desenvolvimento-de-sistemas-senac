@@ -1,7 +1,7 @@
 # 📧 Gerador de E-mail Institucional
 
-<div>
-  <img width="100%" src="">
+<div align="center">
+  <img width="80%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/gerador-email-institucional/to-readme.gif?raw=true">
 </div>
 
 ##
