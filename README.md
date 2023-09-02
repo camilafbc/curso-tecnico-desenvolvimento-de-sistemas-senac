@@ -14,6 +14,9 @@
   </div>
 </div>
 
+## Conteúdo Programático:
+*os tópicos com ✅ já foram ou estão sendo desenvolvidos
+
 #### ✅Analisar Requisitos e Funcionalidades da Aplicação
 
 - Fluxogramas
@@ -29,6 +32,8 @@
 
 - Lógica de Programação com JavaScript
 - Introdução ao PHP
+- Uso do Ajax para processamento de formulários com o PHP
+- localStorage: armazenamento, leitura e limpeza de dados
 
 #### Analisar Programação Estruturada e Orientada a Objetos
 
