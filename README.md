@@ -14,6 +14,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="55px" />    
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50px" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="50px"/> 
   </div>
 </div>
 
@@ -57,15 +58,3 @@
 #### Realizar Testes
 
 #### Operações de Suporte ao Usuário
-
-#
-
-## Projetos: 
-
- ##### Page Cursos Senac
- <img width="40%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/raw/main/page-faculdade-senac/rec-readme.gif?raw=true"/>
-
-
-  ##### Gerador de E-mail Institucional
- <img width="40%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/raw/main/gerador-email-institucional/to-readme.gif?raw=true"/>
-
