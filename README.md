@@ -47,6 +47,11 @@
 
 #### Desenvolver Aplicações Desktop
 
+ - Desenvolvimento de Aplicações Desktop com C#
+ - Visual Studio 2022
+ - .NET 6
+ - Introdução a SQL
+
 #### Criar e Manter Banco de Dados
 
 #### Desenvolver Aplicações WEB
