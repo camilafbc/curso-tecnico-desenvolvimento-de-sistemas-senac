@@ -45,7 +45,7 @@
  - Visual Studio 2022
  - Orientação a Objetos com C#
 
-#### Desenvolver Aplicações Desktop
+#### ✅ Desenvolver Aplicações Desktop
 
  - Desenvolvimento de Aplicações Desktop com C#
  - Visual Studio 2022
