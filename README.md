@@ -15,6 +15,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="55px" />    
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="50px"/> 
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50px"/>
   </div>
 </div>
 
@@ -48,11 +49,14 @@
 #### ✅ Desenvolver Aplicações Desktop
 
  - Desenvolvimento de Aplicações Desktop com C#
- - Visual Studio 2022
- - .NET 6
- - Introdução a SQL
+ - Visual Studio 2022 e .NET
+ - Criação e Manipulação de arquivos .txt
 
-#### Criar e Manter Banco de Dados
+#### ✅ Criar e Manter Banco de Dados
+
+- Banco de dados relacional
+- MySQL
+- CRUD através de aplicações desktop
 
 #### Desenvolver Aplicações WEB
 
