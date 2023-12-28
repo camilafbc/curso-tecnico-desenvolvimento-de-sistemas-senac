@@ -6,34 +6,57 @@
  ## Tecnologias e Ferramentas Abordadas
  
   <div>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="50px" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50px" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="50px" />          
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="55px" />    
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50px" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="50px"/> 
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50px"/>
   </div>
 </div>
 
-#### ✅Analisar Requisitos e Funcionalidades da Aplicação
+## Conteúdo Programático:
+*os tópicos contendo  ✅ já foram ou estão sendo desenvolvidos
+
+#### ✅ Analisar Requisitos e Funcionalidades da Aplicação
 
 - Fluxogramas
 - Requisitos Funcionais, Requisitos não-funcionais e Regras de Negócio
 
-#### ✅Auxiliar na Gestão de Projetos de TI
+#### ✅ Auxiliar na Gestão de Projetos de TI
 
 - Métodos e Ferramentas de Gerenciamento de Projetos
 - Kanban
 - PMBOK
 
-#### ✅Desenvolver Algoritmos
+#### ✅ Desenvolver Algoritmos
 
 - Lógica de Programação com JavaScript
+- Introdução ao PHP
+- Uso do Ajax para processamento de formulários com o PHP
+- localStorage: armazenamento, leitura e limpeza de dados
 
-#### Analisar Programação Estruturada e Orientada a Objetos
+#### ✅ Analisar Programação Estruturada e Orientada a Objetos
 
-#### Desenvolver Aplicações Desktop
+ - UML para modelar e documentar as diversas fases do desenvolvimento de sistemas orientados a objetos
+ - Visual Studio 2022
+ - Orientação a Objetos com C#
 
-#### Criar e Manter Banco de Dados
+#### ✅ Desenvolver Aplicações Desktop
+
+ - Desenvolvimento de Aplicações Desktop com C#
+ - Visual Studio 2022 e .NET
+ - Criação e Manipulação de arquivos .txt
+
+#### ✅ Criar e Manter Banco de Dados
+
+- Banco de dados relacional
+- MySQL
+- CRUD através de aplicações desktop
 
 #### Desenvolver Aplicações WEB
 
@@ -44,7 +67,3 @@
 #### Realizar Testes
 
 #### Operações de Suporte ao Usuário
-
-#
-
-## Projetos: 
