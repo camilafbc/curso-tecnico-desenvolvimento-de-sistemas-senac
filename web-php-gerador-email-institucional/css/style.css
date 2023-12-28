@@ -1,0 +1,11 @@
+.card {
+    max-width: 600px;
+}
+
+img {
+    width: 350px;
+}
+
+h1, h2, h3 {
+    color: #333333;
+}
