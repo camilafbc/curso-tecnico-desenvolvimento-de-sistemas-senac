@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    user-select: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, rgb(147 173 229), rgb(85, 131, 230));
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    max-width: 1110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_container, .right_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #f5f5f586;
+    height: 475px;
+    width: 80%;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container > h2{
+    font-size: 1.75rem;
+    color: #148DEF;
+}
+
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #0b0b7aa3;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    text-align: end;
+    padding: 0 10px;
+    font-size: 1.125rem;
+    background-color: #f5f5f596;
+    font-weight: 600;
+    color: #1D2366;
+}
+
+input::placeholder{
+    padding: 0 10px;
+    font-size: 1.125rem;
+}
+
+button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    align-self: center;
+
+    border-radius: 5px;
+    background-color: #148DEF;
+    color: #f5f5f5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.4s;
+    background-color: #f5f5f5;
+    color: rgb(0, 81, 255);
+}
+
+.saida_container{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #1D2366;
+}
+
+p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* RESPONSIVIDADE */
+
+@media(max-width: 768px){
+    .left_container{
+        display: none;
+    }
+
+    .right_container{
+        width: 100%;
+    }
+
+    .container{
+        width: 95%;
+        max-width: 360px;
+    }
+
+    p{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+}

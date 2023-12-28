@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icons8-discount-32.png" type="image/x-icon">
+    <title>Calcular Desconto</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="content_container">
+        <h2>Calcular Desconto</h2>
+        <form>
+          <div>
+            <label for="total">Valor bruto:</label>
+            <input type="text" name="total" id="total" />
+          </div>
+          <div>
+            <label for="desconto">% de desconto:</label>
+            <input type="text" name="desconto" id="desconto" />
+          </div>
+        </form>
+        <button id="btn">CALCULAR</button>
+        <div class="out_container">
+          <span>Valor Bruto: <span id="bruto"></span> </span>
+          <span>% aplicada: <span id="desc_apl"></span> </span>
+          <span>Valor do desconto: <span id="valor_desc"></span> </span>
+          <span>Valor Final: <span id="valor_final"></span> </span>
+        </div>
+      </div>
+      <div class="img_container">
+        <img src="img/undraw_discount_d-4-bd.svg" alt="ilustração-porcentagem"/>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

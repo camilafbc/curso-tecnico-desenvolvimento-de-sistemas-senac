@@ -10,7 +10,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="vh-100 d-flex align-items-center justify-content-center bg-secondary">
+<body class="vh-100 d-flex align-items-center justify-content-center bg-primary">
 
     <div class="container">
         <div class="card mx-auto w-100 p-5 d-flex justify-content-center align-items-center shadow-lg bg-light">

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1744d8;
+}
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1000px;
+    gap: 5rem;
+
+    background: #f5f5f5;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+}
+
+.right_container, .left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+form label {
+    font-size: 1.25rem;
+}
+
+form > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.left_container {
+    min-width: 280px;
+    max-width: 320px;
+}
+
+img{
+    width: 100%;
+}
+
+form > div {
+    margin-bottom: 10px;
+}
+
+input {
+    outline: 0;
+    width: 50px;
+    height: 25px;
+    text-align: end;
+    padding: 0 5px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.25rem;
+    width: 250px;
+    margin: 0.75rem 0;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(23, 68, 216);
+    color: #f5f5f5;
+}
+
+button:hover {
+    scale: 1.025;
+}
+
+.saida{
+    margin-top: 10px;
+    height: 70px;
+    font-size: 1.125rem;
+}
+
+.saida > p {
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVIDADE */
+
+@media(min-width: 768px){
+    main{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/speed.png" type="image/x-icon">
+    <title>Verifica Velocidade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="left_container">
+            <img src="img/undraw_documents_re_isxv.svg" alt="">
+        </div>
+        <div class="right_container">
+            <h1>Programa Verifica Velocidade</h1>
+            <hr>
+            <form>
+                <div>
+                    <label for="permitido">Velocidade Permitida:</label>
+                    <input type="text" id="permitido">
+                </div>
+                <div>
+                    <label for="condutor">Velocidade do Condutor:</label>
+                    <input type="text" id="condutor">
+                </div>
+            </form>
+            <button id="btn">Verificar Velocidade</button>
+            <div class="saida">
+                <p id="saida_vel"></p>
+                <p id="saida_multa"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
