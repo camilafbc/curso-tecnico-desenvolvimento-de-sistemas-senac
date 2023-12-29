@@ -1,7 +1,7 @@
 # 💲 Calculadora de Desconto
 
 <div>
-  <img width="100%" src="">
+  <img width="80%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/web-calculadora-desconto/to-readme.jpeg?raw=true">
 </div>
 
 Página desenvolvida como atividade dos módulos de HTML, CSS e JS. 
