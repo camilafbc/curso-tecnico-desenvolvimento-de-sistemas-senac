@@ -1,7 +1,7 @@
 # ☑ Tela de Login
 
 <div>
-  <img width="100%" src="">
+  <img width="100%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/web-login-localstorage/to-readme.jpg?raw=true">
 </div>
 
 Página desenvolvida como atividade dos módulos de HTML, CSS e JS. 
@@ -21,4 +21,4 @@ Tela de login que trabalha conceitos de estilização, responsividade e lógica 
 
 ## Funcionalidades
 
-- Armazenamento de dados criptografados no local storage: ao acessar a tela e preencher os dados de email e senha e selecionar o input "Manter conectado", os dados de login serão armazenados no local storage. Ao voltar a acessar a página no mesmo navegador, as informações de login serão preenchidas automaticamente a partir da descriptografia dos dados presentes no local storage.
+Armazenamento de dados criptografados no local storage: ao acessar a tela e preencher os dados de email e senha e selecionar o input "Manter conectado", os dados de login serão armazenados no local storage. Ao voltar a acessar a página no mesmo navegador, as informações de login serão preenchidas automaticamente a partir da descriptografia dos dados presentes no local storage.
