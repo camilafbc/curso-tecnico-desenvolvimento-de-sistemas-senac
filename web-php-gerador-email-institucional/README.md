@@ -1,7 +1,7 @@
 # 📧 Gerador de E-mail Institucional
 
 <div align="center">
-  <img width="80%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/gerador-email-institucional/to-readme.gif?raw=true">
+  <img width="80%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/web-php-gerador-email-institucional/to-readme.gif?raw=true">
 </div>
 
 Página desenvolvida como parte do módulo de introdução à programação com PHP no curso. O "Gerador de E-mail Institucional" é uma aplicação que recebe o nome completo de um funcionário e gera um e-mail institucional personalizado, aplicando a lógica de concatenação das iniciais do nome e preservando o último nome completo.
@@ -13,6 +13,7 @@ Este projeto foi criado como uma atividade prática durante o módulo de introdu
 ## Tecnologias Utilizadas
 
 - HTML
+- Bootstrap
 - PHP (para a lógica de geração do e-mail)
   
 ## Funcionalidades
