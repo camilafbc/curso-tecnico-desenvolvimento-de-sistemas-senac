@@ -1,16 +1,29 @@
 # ➗ Calculadora JS
 
 <div>
-  <img width="200px" src="https://raw.githubusercontent.com/camilafbc/calculadora-js/main/assets/img/to-readme.gif.gif" />
+  <img width="100%" src="">
 </div>
 
-Calculadora que realiza as quatro operações matemáticas básicas, permite prosseguir com cálculos em sequência, apagar dígitos e apagar operação.
+Página desenvolvida como atividade dos módulos de HTML, CSS e JS. 
 
-👉 [ACESSAR CALCULADORA](https://camilafbc.github.io/calculadora-js/)
+O projeto pode ser acessado aqui 👉 https://camilafbc-calculadora.netlify.app/
 
-## Conceitos trabalhados:
+## Visão Geral
 
-* Manipulação do DOM
-* Funções
-* Eventos no JS
-* Uso de condicionais e operadores lógicos
+Calculadora que executa as 4 operações básicas, eleva ao quadrado e altera o sinal.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JS
+
+## Funcionalidades
+
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+- Potência
+- Remover digito
+- Remover tudo
