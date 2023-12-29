@@ -6,7 +6,7 @@
 
 Página responsiva desenvolvida como atividade conclusiva dos módulos de HTML e CSS no curso. A página apresenta os conceitos aprendidos durante os módulos e busca demonstrar habilidades na estruturação e estilização de páginas web.
 
-O resultado pode ser acessado aqui 👉 https://page-cursos-senac.vercel.app/
+O resultado pode ser acessado aqui 👉 https://camilafbc-cursos-senac.netlify.app/
 
 ## Visão Geral
 
@@ -15,16 +15,12 @@ A "Page Cursos Senac" é um projeto que foi criado como parte da conclusão dos 
 ## Tecnologias Utilizadas
 
 - HTML
-- SASS
+- SASS / CSS
 - Flexbox para layout flexível
 
 ## Funcionalidades
 
-- Demonstração da aplicação de técnicas de layout responsivo.
-- Utilização de estilos organizados com SASS para uma manutenção facilitada.
+- Cards com "apresentação" de alguns cursos
+- Acessar página com "detalhes" de cada cursoa partir de um card
+- Retornar para a página principal
 
-## Aprendizados
-
-- Aplicação prática dos conceitos de HTML e CSS em um projeto real.
-- Uso do Flexbox para criar layouts flexíveis e adaptáveis.
-- Organização de estilos com SASS.
