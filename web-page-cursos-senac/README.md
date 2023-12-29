@@ -1,7 +1,7 @@
 # 💻 Page Cursos Senac
 
 <div>
-  <img width="100%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/page-faculdade-senac/rec-readme.gif?raw=true">
+  <img width="100%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/web-page-cursos-senac/rec-readme.gif?raw=true">
 </div>
 
 Página responsiva desenvolvida como atividade conclusiva dos módulos de HTML e CSS no curso. A página apresenta os conceitos aprendidos durante os módulos e busca demonstrar habilidades na estruturação e estilização de páginas web.
