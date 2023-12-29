@@ -1,7 +1,7 @@
 # 🏍 Verificador de Velocidade
 
 <div>
-  <img width="100%" src="">
+  <img width="100%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/web-verificar-velocidade/to-readme.jpeg?raw=true">
 </div>
 
 Página desenvolvida como atividade dos módulos de HTML, CSS e JS. 
