@@ -20,6 +20,7 @@ O projeto "Agendamento de Procedimentos Estéticos" é uma aplicação desktop c
 Certifique-se de ter o Visual Studio 2019 ou superior instalado, juntamente com o .NET Framework 4.8. O projeto foi desenvolvido nesse ambiente, e garantir a compatibilidade ajudará a evitar problemas de execução.
 
 # Como Executar o Projeto
-1. Abra o arquivo de solução do projeto no Visual Studio.
-2. Compile o projeto para garantir que todas as dependências sejam resolvidas.
-3. Execute o aplicativo clicando em "Iniciar" no Visual Studio ou abrindo o arquivo executável diretamente na pasta "bin/debug" do projeto.
+1. Clone este repositório
+2. Abra o arquivo de solução do projeto no Visual Studio
+3. Compile o projeto para garantir que todas as dependências sejam resolvidas
+4. Execute o aplicativo clicando em "Iniciar" no Visual Studio ou abrindo o arquivo executável diretamente na pasta "bin/debug" do projeto.
