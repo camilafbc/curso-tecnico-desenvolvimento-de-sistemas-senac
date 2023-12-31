@@ -2,7 +2,7 @@
 
 Repositório do projeto de Agendamento de Procedimentos Estéticos desenvolvido como atividade do módulo de Aplicações Desktop.
 <div align="center">
-  <img width="80%" src="" />
+  <img width="80%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/desktop-agendamento-procedimentos-esteticos/to-readme.jpg?raw=true"/>
 </div>
 
 # Descrição do Projeto
