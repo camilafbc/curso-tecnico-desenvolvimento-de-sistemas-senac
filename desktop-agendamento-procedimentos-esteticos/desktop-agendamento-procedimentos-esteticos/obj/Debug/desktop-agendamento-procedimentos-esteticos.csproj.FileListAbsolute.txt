@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\bin\Debug\desktop-agendamento-procedimentos-esteticos.exe.config
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\bin\Debug\desktop-agendamento-procedimentos-esteticos.exe
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\bin\Debug\desktop-agendamento-procedimentos-esteticos.pdb
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop-agendamento-procedimentos-esteticos.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop_agendamento_procedimentos_esteticos.Form1.resources
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop_agendamento_procedimentos_esteticos.Properties.Resources.resources
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop-agendamento-procedimentos-esteticos.csproj.GenerateResource.cache
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop-agendamento-procedimentos-esteticos.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop-agendamento-procedimentos-esteticos.exe
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop-agendamento-procedimentos-esteticos.pdb
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop_agendamento_procedimentos_esteticos.Form2.resources
+C:\Users\User\source\repos\desktop-agendamento-procedimentos-esteticos\desktop-agendamento-procedimentos-esteticos\obj\Debug\desktop_agendamento_procedimentos_esteticos.Form3.resources
