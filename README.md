@@ -1,9 +1,21 @@
 <img src="https://raw.githubusercontent.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/main/banner.png" width="100%"/>
 
+Repositório de documentação de aprendizado e projetos realizados no curso Técnico em Desenvolvimento de Sistemas pelo SENAC MG.
+
+## Como Navegar No Repositório
+
+O Readme deste repositório apresenta o conteúdo programático do curso e alguns dos principais pontos trabalhados dentro de cada Unidade Curricular. As unidades que contenham o símbolo "✅ " já foram ou estão sendo trabalhadas.
+
+Os projetos possuem seus diretórios independentes, podendo ser acessados individualmente, e estão organizados da seguinte maneira:
+  * nome inicia com "web" => projetos desenvolvidos com HTML, CSS e JS
+  * nome inicia com "web-php" => projetos web com PHP
+  * desktop => projetos desktop desenvolvidos em .NET
+
+O repositório será atualizado no decorrer do curso.
  
 <div align="center">
  
- ## Tecnologias e Ferramentas Abordadas
+ ## Tecnologias e Ferramentas Trabalhadas
  
   <div>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="50px" />
@@ -20,7 +32,6 @@
 </div>
 
 ## Conteúdo Programático:
-*os tópicos contendo  ✅ já foram ou estão sendo desenvolvidos
 
 #### ✅ Analisar Requisitos e Funcionalidades da Aplicação
 
@@ -55,8 +66,11 @@
 #### ✅ Criar e Manter Banco de Dados
 
 - Banco de dados relacional
-- MySQL
-- CRUD através de aplicações desktop
+- Modelagem de Banco de Dados
+- Diagrama Entidade-Relacionamento
+- SQL
+- MySQL Workbench
+- CRUD em aplicações desktop com banco de dados
 
 #### Desenvolver Aplicações WEB
 
