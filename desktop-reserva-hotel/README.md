@@ -2,7 +2,7 @@
 
 Repositório do projeto App de Reserva de Quartos em Hotel desenvolvido como atividade do módulo de Aplicações Desktop.
 <div align="center">
-  <img width="80%" src=""/>
+  <img width="80%" src="https://github.com/camilafbc/curso-tecnico-desenvolvimento-de-sistemas-senac/blob/main/desktop-reserva-hotel/to-readme.jpg?raw=true"/>
 </div>
 
 # Descrição do Projeto
