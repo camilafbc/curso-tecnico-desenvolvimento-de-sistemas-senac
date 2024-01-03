@@ -36,7 +36,6 @@ namespace desktop_agendamento_procedimentos_esteticos
                 DialogResult dialogResult = MessageBox.Show($"" +
                     $"Confirma os dados do agendamento?\n\n" +
                     $"Cliente: {txtNome.Text.Trim()}\n" +
-                    //$"Tel: {txtTelefone.Text.Trim()}\n" +
                     $"Tel: {maskedTBTelefone.Text}\n" +
                     $"Procedimento: {cBProcedimento.Text}\n" +
                     $"Data: {dateTimeData.Value.ToShortDateString()}\n" +
@@ -46,7 +45,6 @@ namespace desktop_agendamento_procedimentos_esteticos
                 {
                     string agendamento = $"" +
                         $"{txtNome.Text.Trim()}*" +
-                        //$"{txtTelefone.Text.Trim()}*" +
                         $"{maskedTBTelefone.Text}*" +
                         $"{cBProcedimento.Text}*" +
                         $"{dateTimeData.Value.ToShortDateString()}*" +

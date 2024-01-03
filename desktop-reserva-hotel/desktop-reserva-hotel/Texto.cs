@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
-namespace desktop_agendamento_procedimentos_esteticos
+namespace desktop_reserva_hotel
 {
     class Texto
     {
-        public string Caminho = Path.Combine(Environment.CurrentDirectory, "BancoDados.txt");
+        public string Caminho = Path.Combine(Environment.CurrentDirectory, "BancoDeDados.txt");
         public string Dados;
 
         public void Gravar()
@@ -29,8 +29,7 @@ namespace desktop_agendamento_procedimentos_esteticos
             arquivoTXT.Close();
         }
 
-
-        public List<string>  LerArquivo()
+        public List<string> LerArquivo()
         {
             List<string> linhas = new List<string>();
 
@@ -69,6 +68,25 @@ namespace desktop_agendamento_procedimentos_esteticos
             List<string> busca = arquivo.FindAll(l => l.Contains(entrada));
 
             return busca;
+        }
+
+        public void ApagarDado(string busca)
+        {
+            List<string> arquivo = LerArquivo();
+
+            // O RemoveAll remove as linhas que contenham o termo a ser buscado
+            arquivo.RemoveAll(l => l.Contains(busca));
+
+            // Novo arquivo é gerado para substituir o arquivo anterior
+            StreamWriter novoArquivo = new StreamWriter(Caminho);
+
+            // Percorre o list e escreve as linhas (sem a linha removida) no novo arquivo
+            foreach (string linha in arquivo)
+            {
+                novoArquivo.WriteLine(linha);
+            }
+
+            novoArquivo.Close();
         }
     }
 }

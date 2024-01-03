@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\bin\Debug\desktop-reserva-hotel.exe.config
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\bin\Debug\desktop-reserva-hotel.exe
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\bin\Debug\desktop-reserva-hotel.pdb
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop-reserva-hotel.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop_reserva_hotel.Form1.resources
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop_reserva_hotel.Properties.Resources.resources
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop-reserva-hotel.csproj.GenerateResource.cache
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop-reserva-hotel.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop-reserva-hotel.exe
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop-reserva-hotel.pdb
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop_reserva_hotel.UserControls.UCHome.resources
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop_reserva_hotel.UserControls.UCConsulta.resources
+C:\Users\User\source\repos\desktop-reserva-hotel\desktop-reserva-hotel\obj\Debug\desktop_reserva_hotel.UserControls.UCNovaReserva.resources
