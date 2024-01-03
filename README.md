@@ -9,7 +9,7 @@ O Readme deste repositório apresenta o conteúdo programático do curso e algun
 Os projetos possuem seus diretórios independentes, podendo ser acessados individualmente, e estão organizados da seguinte maneira:
   * nome inicia com "web" => projetos desenvolvidos com HTML, CSS e JS
   * nome inicia com "web-php" => projetos web com PHP
-  * desktop => projetos desktop desenvolvidos em .NET
+  * nome inicia com "desktop" => projetos desktop desenvolvidos em .NET
 
 O repositório será atualizado no decorrer do curso.
  
