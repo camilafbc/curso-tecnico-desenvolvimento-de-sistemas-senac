@@ -12,24 +12,35 @@ Os projetos possuem seus diretórios independentes, podendo ser acessados indivi
   * nome inicia com "desktop" => projetos desktop desenvolvidos em .NET
 
 O repositório será atualizado no decorrer do curso.
+
  
-<div align="center">
- 
- ## Tecnologias e Ferramentas Trabalhadas
- 
+ ## Tecnologias e Ferramentas Trabalhadas:
+* **IDE's**
   <div>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" width="55px" />    
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50px" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="50px"/> 
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="50px"/>
+    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+    <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white" />
   </div>
-</div>
+
+* **Database**
+   <div>
+    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+  </div>
+
+* **Frameworks, Plataformas e Bibliotecas**
+   <div>
+    <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" />
+    <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+    <img src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white" />
+  </div>
+
+* **Linguagens**
+  <div>
+      <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+      <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" />
+      <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
+  </div>
 
 ## Conteúdo Programático:
 
@@ -72,7 +83,16 @@ O repositório será atualizado no decorrer do curso.
 - MySQL Workbench
 - CRUD em aplicações desktop com banco de dados
 
-#### Desenvolver Aplicações WEB
+#### ✅ Desenvolver Aplicações WEB
+
+- Back-end com PHP
+- Conexão com o banco de dados com PHP
+- CRUD em aplicações web com MySQL e PHP
+- BindValue e prepare para segurança do banco de dados
+- Submissão de formulários com AJAX
+- Autenticação de usuários com PHP
+- Inicializar e encerrar sessão para o usuário com PHP
+- Limitar acessos a partir do tipo do usuário logado
 
 #### Desenvolver Aplicações Mobile
 
