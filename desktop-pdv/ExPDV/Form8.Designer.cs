@@ -54,7 +54,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(135, 192);
+            this.label1.Location = new System.Drawing.Point(126, 192);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(371, 19);
             this.label1.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(54, 241);
+            this.label2.Location = new System.Drawing.Point(122, 242);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 26);
             this.label2.TabIndex = 2;
@@ -74,24 +74,24 @@
             // 
             this.txtEmail.BackColor = System.Drawing.SystemColors.Window;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(137, 239);
+            this.txtEmail.Location = new System.Drawing.Point(205, 240);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(403, 28);
+            this.txtEmail.Size = new System.Drawing.Size(296, 28);
             this.txtEmail.TabIndex = 3;
             // 
             // txtSenha
             // 
             this.txtSenha.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(137, 287);
+            this.txtSenha.Location = new System.Drawing.Point(205, 288);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(403, 28);
+            this.txtSenha.Size = new System.Drawing.Size(296, 28);
             this.txtSenha.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(58, 289);
+            this.label3.Location = new System.Drawing.Point(126, 290);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 26);
             this.label3.TabIndex = 4;
