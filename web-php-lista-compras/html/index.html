@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/flat-round/64/list--v1.png" type="image/x-icon">
+    <title>Lista de Compras</title>
+    <!-- SweetAlert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ajax -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-container">
+            <div class="title-container">
+                <h1>Lista de Compras</h1>
+            </div>
+            <form>
+                <div style="display: none">
+                    <input type="text"  name="id" id="id" value='' hidden>
+                </div>
+                <div class="form-row">
+                    <label for="descrProduto">Produto:</label>
+                    <input type="text" name="descrProduto" id="descrProduto">
+                </div>
+                <div class="form-row">
+                    <label for="marcaProduto">Marca:</label>
+                    <input type="text" name="marcaProduto" id="marcaProduto">
+                </div>
+                <div class="form-row">
+                    <label for="qtdProduto">Quantidade:</label>
+                    <input type="text" name="qtdProduto" id="qtdProduto">
+                </div>
+                <button id="btnAdicionar">Adicionar</button>
+            </form>
+        </div>
+        <div class="list-container">
+           <table>
+            <thead>
+               <tr>
+                <th>
+                    <img width="20" height="20" src="./img/checkmark--v1.png" alt="checkmark--v1"/>
+                </th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Quantidade</th>
+                <th></th>
+               </tr>
+            </thead>
+            <tbody id="tableBody"> 
+                {tableRow}
+            </tbody>
+           </table>
+        </div>
+    </div>
+    
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.all.min.js"></script>
+    <!-- SCRIPT -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

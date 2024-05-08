@@ -1,0 +1,27 @@
+<li class='card' id='{id}'>
+    <div class='image-container'>
+        <img src='./img/do-utilizador2.png' alt=''>
+    </div>
+    <div class='contato-container'>
+        <p>
+            <span>Nome:</span> {nome}
+        </p>
+        <p>
+            <span>E-mail:</span> {email}
+        </p>
+        <p>
+            <span>Telefone:</span> {celular}
+            {icon}
+        </p>
+    </div>
+    <div class='hiden-card'>
+            <button data-target='modal1' class='modal-trigger btn-editar' data-id='{id}'>
+                <i class='bi bi-pencil'></i>
+                Editar
+            </button>
+            <button class='btnExcluir'>
+                <i class='bi bi-trash'></i>
+                Excluir
+            </button>
+    </div>
+</li>
