@@ -10,12 +10,9 @@
 
                 try {
                     $ini = parse_ini_file('./config/config.ini');
-                    $servidor = $ini['servidor'];
-                    $banco = $ini['banco'];
-                    $usuario = $ini['usuario'];
-                    $senha = $ini['senha'];
-
-                    self::$conn = new PDO("mysql:dbname={$banco};host={$servidor};charset=utf8", $usuario, $senha);
+                    $name = $ini['name'];
+                
+                    self::$conn = new PDO("sqlite:{$name}");
                     self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                     return self::$conn;
@@ -37,7 +34,7 @@
                 $conn = self::getConnection();
 
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                $sql = "SELECT * FROM contatos WHERE raAluno = '972244' ORDER BY nome";
+                $sql = "SELECT * FROM contatos ORDER BY nome";
                 
                 $result = $conn->query($sql);
                 $list = $result->fetchAll(PDO::FETCH_ASSOC);
@@ -85,7 +82,7 @@
 
                 $conn = self::getConnection();
 
-                $prepare = $conn->prepare("DELETE FROM contatos WHERE id=:id AND raAluno='972244'");
+                $prepare = $conn->prepare("DELETE FROM contatos WHERE id=:id");
                 $prepare->bindValue(":id", $id);
                 $count = $prepare->execute();
 
@@ -114,13 +111,12 @@
 
                     $zap = $contato['zap'] === 'true' ? 1 : 0 ;
 
-                    $prepare = $conn->prepare("INSERT INTO contatos (nome, email, celular, zap, raAluno) VALUES (:nome, :email, :celular, :zap, :raAluno)");
+                    $prepare = $conn->prepare("INSERT INTO contatos (nome, email, celular, zap) VALUES (:nome, :email, :celular, :zap)");
 
                     $prepare->bindValue(":nome", $contato['nome'], PDO::PARAM_STR);
                     $prepare->bindValue(":email", $contato['email'], PDO::PARAM_STR);
                     $prepare->bindValue(":celular", $contato['celular'], PDO::PARAM_STR);
                     $prepare->bindValue(":zap", $zap, PDO::PARAM_INT);
-                    $prepare->bindValue(":raAluno", "972244", PDO::PARAM_STR);
                     $count = $prepare->execute();
 
                     return $count;
@@ -129,7 +125,7 @@
 
                     $zap = $contato['zap'] === 'true' ? 1 : 0 ;
 
-                    $prepare = $conn->prepare("UPDATE contatos SET nome = :nome, email = :email, celular = :celular, zap = :zap WHERE id=:id AND raAluno = '972244'");
+                    $prepare = $conn->prepare("UPDATE contatos SET nome = :nome, email = :email, celular = :celular, zap = :zap WHERE id=:id");
                     $prepare->bindValue(":id", $contato['id']);
                     $prepare->bindValue(":nome", $contato['nome'], PDO::PARAM_STR);
                     $prepare->bindValue(":email", $contato['email'], PDO::PARAM_STR);

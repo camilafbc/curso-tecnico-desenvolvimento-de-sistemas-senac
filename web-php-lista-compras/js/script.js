@@ -1,3 +1,4 @@
+document.getElementById("descrProduto").focus();
 
 document.getElementById("qtdProduto").addEventListener('input',function(){
     this.value = this.value.replace(/\D/g, "");
@@ -99,9 +100,9 @@ document.getElementById("btnAdicionar").addEventListener('click', (ev) => {
         
             let text = data > 0 ? "Produto salvo com sucesso!" : "Erro ao salvar produto!";
             
-            $('#descrProduto').val(""),
-            $('#marcaProduto').val(""),
-            $('#qtdProduto').val("")
+            document.getElementById("descrProduto").value = "";
+            document.getElementById("marcaProduto").value = "";
+            document.getElementById("qtdProduto").value = "";
 
             Swal.fire({
                 showConfirmButton: false,
@@ -143,7 +144,7 @@ document.querySelectorAll(".btn-del").forEach((btn) => {
             
                 if (result.dismiss === Swal.DismissReason.timer) {
                 
-                    window.location.reload();window.location.href = "listar.php";
+                    window.location.reload();window.location.href = "index.php";
         
                 }
             });

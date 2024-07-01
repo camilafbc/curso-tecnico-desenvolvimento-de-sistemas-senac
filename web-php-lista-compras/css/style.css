@@ -91,6 +91,10 @@ form .form-row {
     font-size: 1.15rem;
 }
 
+form input[type=text]:focus {
+    border: 1px solid var(--cinza-escuro);
+}
+
 form #btnAdicionar {
     align-self: end;
     height: 35px;

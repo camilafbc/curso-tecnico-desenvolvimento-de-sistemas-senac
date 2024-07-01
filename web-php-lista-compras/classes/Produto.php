@@ -9,12 +9,9 @@ class Produto {
 
             try {
                 $ini = parse_ini_file('./config/config.ini');
-                $banco = $ini['banco'];
-                $servidor = $ini['servidor'];
-                $usuario = $ini['usuario'];
-                $senha = $ini['senha'];
-
-                self::$conn = new PDO("mysql:dbname={$banco};host={$servidor};charset=utf8", $usuario, $senha);
+                $name = $ini['name'];
+                
+                self::$conn = new PDO("sqlite:{$name}");
                 self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                 return self::$conn;
