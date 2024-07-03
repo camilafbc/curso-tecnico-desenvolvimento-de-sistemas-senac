@@ -24,6 +24,7 @@ O repositório será atualizado no decorrer do curso.
 * **Database**
    <div>
     <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+    <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" />
   </div>
 
 * **Frameworks, Plataformas e Bibliotecas**
@@ -40,6 +41,7 @@ O repositório será atualizado no decorrer do curso.
       <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
       <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" />
       <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
+      <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
   </div>
 
 ## Conteúdo Programático:
@@ -94,7 +96,9 @@ O repositório será atualizado no decorrer do curso.
 - Inicializar e encerrar sessão para o usuário com PHP
 - Limitar acessos a partir do tipo do usuário logado
 
-#### Desenvolver Aplicações Mobile
+#### ✅ Desenvolver Aplicações Mobile
+- Lógica de programação com Python
+- Desenvolvimento multiplataforma com Flet + Python
 
 #### Operações de Atualização e Manutenção em Aplicações
 
